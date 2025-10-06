@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<<link rel="stylesheet" href="style.css" />
->
+<head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AstroKalki - Decoding Kaalchakra</title>
-  <!-- Insert CSS links here, update color scheme for AstroKalki brand -->
+  <meta name="description" content="AstroKalki: Premium astrology expertise, horoscope forecasts, and cosmic consultations. Decoding Kaalchakra for your future.">
   <link rel="icon" href="images/logo_1.jpg" type="image/jpeg">
-</<link rel="stylesheet" href="style.css" />
->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#6C4BB6" />
+</head>
 <body>
   <!-- Navigation with Logo -->
   <nav>
@@ -23,30 +25,26 @@
   </nav>
 
   <!-- Hero Section with Video -->
-  <section class="hero" style="text-align:center;">
-    <video src="images/hero_home.mp4" autoplay muted loop style="width:80%;max-width:680px;border-radius:20px;object-fit:cover;margin-bottom:16px;"></video>
-    <h1 style="font-size:2.5em;margin-top:0;">AstroKalki</h1>
-    <h5 style="color:#8e7adb;">Decoding Kaalchakra</h5>
-    <p>
-      Astrology Is Just A Finger<br>Pointing At Reality
-    </p>
-    <a href="appointments.html">Book Now</a>
-    <a href="appointments.html">Contact Us</a>
-  </section>
-
-  <!-- Info Section -->
-  <section>
-    <h1>We Can Use Astrology To Find Your Future</h1>
-    <p>
-      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...
-    </p>
-    <ul>
-      <li>Astrology is just a finger pointing at reality</li>
-      <li>Millionaires don't have astrologers, billionaires do</li>
-      <li>It is not in the stars to hold our destiny but in ourselves.</li>
-      <li>Astrology is like a gateway drug to a more cosmic world view.</li>
-    </ul>
-    <a href="about.html">Read More</a>
+  <section class="hero-container">
+    <div class="hero-content">
+      <video src="images/hero_home.mp4" autoplay muted loop style="width:100%;max-width:800px;border-radius:18px;box-shadow:0 8px 36px -8px #31204e77;margin-bottom:1.2em;"></video>
+      <h1>AstroKalki</h1>
+      <h5>Decoding Kaalchakra</h5>
+      <div class="hero-btns">
+        <a href="appointments.html" class="btn">Book Now</a>
+        <a href="appointments.html" class="btn">Contact Us</a>
+      </div>
+      <h2>We Can Use Astrology To Find Your Future</h2>
+      <p>
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...
+      </p>
+      <ul class="hero-list">
+        <li>Astrology is just a finger pointing at reality</li>
+        <li>Millionaires don't have astrologers, billionaires do</li>
+        <li>It is not in the stars to hold our destiny but in ourselves.</li>
+        <li>Astrology is like a gateway drug to a more cosmic world view.</li>
+      </ul>
+    </div>
   </section>
 
   <!-- Horoscope Forecasts -->
@@ -55,7 +53,7 @@
     <p>It is a long established fact that a reader will be distracted by the readable content...</p>
     <div>
       <a href="service_single.html"><h5>Aries</h5><p>Mar 21 - Apr 23</p></a>
-      <a href="service_single.html"><h5>Taurus</h5><p>Mar 21 - Apr 23</p></a>
+      <a href="service_single.html"><h5>Taurus</h5><p>Apr 24 - May 20</p></a>
       <!-- Repeat for all signs -->
     </div>
   </section>
@@ -133,5 +131,3 @@
   </footer>
 </body>
 </html>
-
-
